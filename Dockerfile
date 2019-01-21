@@ -39,6 +39,6 @@ USER java
 WORKDIR ${APP_DIR}
 
 # start tomcat7
-EXPOSE 8080
+EXPOSE 9101
 
 ENTRYPOINT ["sh", "/opt/app/entrypoint.sh"]
